@@ -28,7 +28,7 @@ const Navbar = () => {
               <li className="flex items-center cursor-pointer text-md">
                 Services <MdOutlineKeyboardArrowDown />
               </li>
-              <div className="absolute top-16 ">
+              <div className="absolute top-16 z-40">
                 {dropDown && (
                   <div className="flex flex-col gap-1 bg-white w-64 rounded-md p-2  ">
                     <li className={liStyle}>Website Designing</li>

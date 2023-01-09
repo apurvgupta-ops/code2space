@@ -4,12 +4,13 @@ import logo from "../Assets/logo1.jpg";
 const Footer = () => {
   // * COMMON STYLE FOR FOOTER CONTENT
   const footerStyle = "flex flex-col gap-4 px-6 border-r-2";
+
   return (
     <div>
       <div className="w-full bg-[#102348] p-10  ">
-        <div className="w-[80%] m-auto flex items-center justify-around">
-          <div className="w-fit ">
-            <img src={logo} alt="Logo" className="rounded-full w-40" />
+        <div className=" m-auto flex items-center justify-between">
+          <div className="ml-44">
+            <img src={logo} alt="Logo" className="rounded-full w-40 " />
           </div>
 
           <div className="flex text-[#848DA0] gap-10">
@@ -33,7 +34,7 @@ const Footer = () => {
               <Link>Privacy Policy</Link>
               <Link>Refund Policy</Link>
             </div>
-            <div className={footerStyle}>
+            <div className="flex flex-col gap-4 px-6">
               <Link> Other Services</Link>
               <Link>School Managemennt</Link>
               <Link>Code2Space - Training</Link>

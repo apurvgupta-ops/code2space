@@ -12,10 +12,10 @@ const Crousel = () => {
   };
   return (
     <div className="relative">
-      <div className="border border-black w-full ">
-        <Slider {...settings} className="">
+      <div className=" w-full ">
+        <img src={slider} alt="slider image" className="h-[600px] w-full" />
+        {/* <Slider {...settings} className="">
           <div className="border border-red-100 ">
-            <img src={slider} alt="slider image" className="h-[600px] w-full" />
           </div>
           <div>
             <img src={slider} alt="slider image" className="h-[600px] w-full" />
@@ -23,7 +23,7 @@ const Crousel = () => {
           <div>
             <img src={slider} alt="slider image" className="h-[600px] w-full" />
           </div>
-        </Slider>
+        </Slider> */}
       </div>
     </div>
   );
