@@ -1,12 +1,12 @@
 import React from "react";
 import ContactForm from "../Components/ContactForm";
 import Footer from "../Components/Footer";
-import Slider from "../Components/Slider";
+import Crousel from "../Components/Slider";
 
 const Home = () => {
   return (
     <div>
-      <Slider />
+      <Crousel />
       <ContactForm />
       <Footer />
     </div>

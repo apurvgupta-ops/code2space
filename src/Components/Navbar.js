@@ -42,6 +42,7 @@ const Navbar = () => {
                 )}
               </div>
             </div>
+
             <li className="cursor-pointer text-md">For Schools</li>
             <li className="cursor-pointer text-md">About Us</li>
             <button className={buttonStyle}>BOOK A FREE CLASS</button>
